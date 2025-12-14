@@ -1,0 +1,1 @@
+$item modify entity @s armor.legs tweaks:enchant/$(random_enchant)

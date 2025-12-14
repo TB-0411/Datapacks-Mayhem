@@ -1,0 +1,1 @@
+execute as @s at @s if score @s as_mined matches 1.. run function tweaks:r_enchants/main

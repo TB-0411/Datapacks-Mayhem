@@ -1,0 +1,3 @@
+scoreboard players set temp1 tweaks_storage -1
+$execute if score temp2 tweaks_storage >= ZERO constants store result score temp1 tweaks_storage run data get entity @s Inventory[$(random_item_index)].components.minecraft:enchantments.minecraft:$(random_enchant)
+$execute if score temp2 tweaks_storage < ZERO constants store result score temp1 tweaks_storage run data get entity @s equipment.$(equipment_name).components.minecraft:enchantments.minecraft:$(random_enchant)

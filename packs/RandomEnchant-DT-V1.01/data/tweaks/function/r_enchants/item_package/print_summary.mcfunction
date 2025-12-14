@@ -1,0 +1,1 @@
+$say Count: $(item_count) Index: $(random_item_index) Slot: $(random_item_slot)

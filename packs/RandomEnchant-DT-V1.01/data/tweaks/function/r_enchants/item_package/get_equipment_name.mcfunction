@@ -1,0 +1,2 @@
+$data modify storage tweaks:temp player.inventory.equipment_name set from storage tweaks:temp player.equipment.array[$(equipment_index)].name
+execute if score temp2 tweaks_storage >= ZERO constants run data modify storage tweaks:temp player.inventory.equipment_name set from storage tweaks:temp player.equipment.default

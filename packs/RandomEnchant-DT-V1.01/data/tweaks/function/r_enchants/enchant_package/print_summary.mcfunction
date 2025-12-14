@@ -1,0 +1,2 @@
+
+tellraw @s [{"color":"light_purple","storage":"tweaks:temp","nbt":"player.inventory.random_enchant"},{"color":"white","text":" applied to "},{"color":"green","storage":"tweaks:temp","nbt":"player.inventory.equipment_name"},{"color":"white","text":" (slot:"},{"color":"blue","storage":"tweaks:temp","nbt":"player.inventory.random_item_slot"},{"color":"white","text":")"}]

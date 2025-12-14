@@ -1,0 +1,2 @@
+# Get random item slot
+$execute if score temp2 tweaks_storage >= ZERO constants store result storage tweaks:temp player.inventory.random_item_slot int 1 run data get entity @s Inventory[$(random_item_index)].Slot

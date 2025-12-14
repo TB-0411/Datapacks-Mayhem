@@ -1,0 +1,6 @@
+playsound block.note_block.bass master @a ~ ~ ~ 1 1 1
+tellraw @a {"bold":true,"color":"aqua","text":"---------Credits--------"}
+tellraw @a {"color":"blue","text":"< By TB >"}
+tellraw @a ["> Using ",{"underlined":true,"color":"light_purple","text":"AllTheBlocks Lib","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/data-pack/all-the-blocks-1-21-data-pack/"},"hover_event":{"action":"show_text","value":[{"text":"Go to web page","bold":true}]}}]
+tellraw @a ["> With the advices of ",{"underlined":true,"color":"dark_purple","text":"Infernal Device","click_event":{"action":"open_url","url":"https://www.youtube.com/@InfernalDevice"},"hover_event":{"action":"show_text","value":[{"text":"Go to channel","bold":true}]} }," on Youtube"]
+tellraw @a ["< For ",{"underlined":true,"color":"dark_purple","text":"AlexisTheGeek","click_event":{"action":"open_url","url":"https://www.youtube.com/@AlexisTheGeek"},"hover_event":{"action":"show_text","value":[{"text":"Go to channel","bold":true}]} }," >"]

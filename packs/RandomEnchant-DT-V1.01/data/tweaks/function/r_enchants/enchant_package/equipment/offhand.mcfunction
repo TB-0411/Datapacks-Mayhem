@@ -1,0 +1,2 @@
+$item modify entity @s weapon.offhand tweaks:enchant/$(random_enchant)
+execute unless items entity @s weapon.offhand #enchantable/durability run item modify entity @s weapon.offhand tweaks:hide_attributes

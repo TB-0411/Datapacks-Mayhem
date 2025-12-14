@@ -1,0 +1,20 @@
+{
+    "pack": {
+        "id": "quiche",
+        "pack_format": 48,
+        "supported_formats": [
+            48,
+            71
+        ],
+        "description": [
+            {
+                "text": "Random Enchants !\nby ",
+                "color": "#9729bc"
+            },
+            {
+                "text": "TB",
+                "color": "#683edd"
+            }
+        ]
+    }
+}

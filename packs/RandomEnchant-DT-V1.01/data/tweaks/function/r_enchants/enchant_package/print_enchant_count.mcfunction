@@ -1,0 +1,1 @@
+$say TotalEnchantCount: $(count) +1
